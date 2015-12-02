@@ -1732,9 +1732,9 @@ table.cortex tbody tr:hover td a {
     color: #753a23;
 }
 
-h1 {
+h1.people {
 	font-size: 48px;
-	margin-bottom: 0px;
+	margin-bottom: -15px;
 }
 
 h2 {
