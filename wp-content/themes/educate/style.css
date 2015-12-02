@@ -1731,3 +1731,12 @@ table.cortex tbody tr td a {
 table.cortex tbody tr:hover td a {
     color: #753a23;
 }
+
+h1 {
+	font-size: 48px;
+	margin-bottom: 0px;
+}
+
+h2 {
+	margin-bottom: 5px;
+}
