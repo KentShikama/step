@@ -32,25 +32,6 @@ get_header();
                     <div class="row">
                         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                                 <div id="post-<?php the_ID(); ?>" <?php post_class('single-blog-post'); ?>>
-                                    <div class="view-box">
-                                        <?php
-                                        $educate_image = wp_get_attachment_image_src(get_post_thumbnail_id(get_the_ID()), 'full');
-
-                                        if ($educate_image[0] != "") {
-                                            ?>
-                                            <div class="blog-post-img"> <img src="<?php echo esc_url($educate_image[0]); ?>" width="<?php echo $educate_image[1]; ?>" height="<?php echo $educate_image[2]; ?>" alt="<?php esc_attr(the_title()); ?>" /> </div>
-        <?php } ?>
-                                        <div class="blog-discription row">
-                                            <div class="col-md-2 col-sm-3 blog-date">
-        <?php educate_entry_meta_date(); ?>
-                                            </div>
-                                            <div class="col-md-9 col-sm-9 blog-meta">
-                                                <div class="blog-title">
-        <?php the_title(); ?>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
 					 <div class="single-blog-content">
                                         <?php the_content(); ?>
                                     </div>
