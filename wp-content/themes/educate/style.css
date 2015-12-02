@@ -1734,7 +1734,12 @@ table.cortex tbody tr:hover td a {
 
 h1.people {
 	font-size: 48px;
-	margin-bottom: -15px;
+	margin-bottom: -50px;
+}
+
+h1.people2 {
+	font-size: 48px;
+	margin-bottom: -10px;
 }
 
 h2 {
