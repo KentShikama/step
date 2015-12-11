@@ -1745,3 +1745,7 @@ h1.people2 {
 h2 {
 	margin-bottom: 5px;
 }
+
+h3.people {
+    margin-bottom: -65px !important;
+}
