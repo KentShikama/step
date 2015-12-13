@@ -84,7 +84,7 @@ list($educate_width,$educate_height)=getimagesize($educate_options['footer-logo'
             <?php } ?>
            <?php }?>
             <div class="copyright">
-                <p><?php echo esc_html($educate_options['footertext']); ?> - <a href="http://tsl2.aspc.pomona.edu/?page_id=64">Credits</a></p>
+                <p><?php echo esc_html($educate_options['footertext']); ?> - <a href="http://step.pomona.edu/?page_id=64">Credits</a></p>
             </div>
         </div>
  </div>
